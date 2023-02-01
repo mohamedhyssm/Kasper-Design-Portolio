@@ -179,7 +179,7 @@ header .container .form {
   margin-left: 30px;
   border-left: 1px solid white;
 }
-header .container .form i {
+header .container .form svg {
   color: white;
   position: absolute;
   font-size: 20px;
@@ -238,7 +238,7 @@ header .container .form i {
 .landing {
   min-height: 100vh;
   background-color: #1f2021;
-  background-image: url("../images/landing.jpg");
+  background-image: url("./images/landing.jpg");
   background-size: cover;
   position: relative;
 }
@@ -338,7 +338,7 @@ header .container .form i {
   display: -ms-flexbox;
   display: flex;
 }
-.services .container .services-container .srv-box i {
+.services .container .services-container .srv-box svg {
   margin-right: 50px;
 }
 .services .container .services-container .srv-box .text h3 {
@@ -369,7 +369,7 @@ header .container .form i {
     text-align: center;
     margin-bottom: 40px;
   }
-  .services .services-container .srv-box i {
+  .services .services-container .srv-box svg {
     margin: 0 0 30px !important;
   }
 }
@@ -380,7 +380,7 @@ header .container .form i {
   padding-bottom: 100px;
   height: 600px;
   position: relative;
-  background-image: url("../images/design-features.jpg");
+  background-image: url("./images/design-features.jpg");
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -429,7 +429,7 @@ header .container .form i {
 }
 .design .text ul li::before {
   font-family: "Font Awesome 5 Free";
-  content: "\f108";
+  content: "\f390";
   font-weight: 900;
   margin-right: 20px;
 }
@@ -605,7 +605,7 @@ header .container .form i {
 .stats {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url("../images/stats.png");
+  background-image: url("./images/stats.png");
   background-size: cover;
   position: relative;
   text-align: center;
@@ -649,7 +649,7 @@ header .container .form i {
       -ms-flex-align: center;
           align-items: center;
 }
-.stats .container .box i {
+.stats .container .box svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -659,10 +659,9 @@ header .container .form i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background-color: #000000;
   margin: 0 auto 30px;
 }
 .stats .container .box .number {
@@ -835,7 +834,7 @@ header .container .form i {
 .quote {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url("../images/quote.jpg");
+  background-image: url("./images/quote.jpg");
   background-size: cover;
   position: relative;
   color: white;
@@ -960,7 +959,7 @@ header .container .form i {
 .subscribe {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url("../images/subscribe.jpg");
+  background-image: url("./images/subscribe.jpg");
   background-size: cover;
   position: relative;
   color: white;
@@ -992,7 +991,7 @@ header .container .form i {
   width: 500px;
   max-width: 100%;
 }
-.subscribe .container form i {
+.subscribe .container form svg {
   position: absolute;
   left: 30px;
   top: 50%;
@@ -1143,7 +1142,7 @@ header .container .form i {
 footer {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url("../images/subscribe.jpg");
+  background-image: url("./images/subscribe.jpg");
   background-size: cover;
   position: relative;
   color: white;
@@ -1175,8 +1174,8 @@ footer .container p:not(.copyright) {
   width: -moz-fit-content;
   width: fit-content;
 }
-footer .container .social-icon i {
-  padding: 10px 15px;
+footer .container .social-icons svg {
+  padding: 10px;
 }
 footer .container .copyright {
   margin-top: 60px;
